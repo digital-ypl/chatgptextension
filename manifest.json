@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Conversations Manager",
+  "version": "1.1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_width": 500,
+    "default_height": 500
+  },
+   "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "description": "Managing ChatGPT conversations can become challenging, but this tool can assist with it.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}

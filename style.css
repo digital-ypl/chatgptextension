@@ -1,0 +1,79 @@
+.input-box {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 5px
+}
+
+.input-box:focus {
+  border: 2px solid rgba(83, 145, 216, 0.932);
+}
+
+.custom-button {
+  background-color: #6c7fec;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.grey-label {
+  color: #919191;
+}
+
+.search-result {
+  background: transparent;
+  border: none;
+  color: rgba(35, 119, 216, 0.932);
+  padding: 0px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 5px;
+  cursor: pointer;
+}
+
+.search-result:hover {
+  text-decoration: underline;
+}
+
+.errorPrompt {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.932);
+  padding: 2px 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 5px;
+}
+
+li {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5px;
+  word-wrap: break-word;
+  margin-top: 2px;
+}
+
+li::before {
+  content: "\2022";
+  margin-right: 5px;
+  margin-top: 5px;
+}
